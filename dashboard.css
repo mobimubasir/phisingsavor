@@ -1,0 +1,146 @@
+/* Custom Styles for Dashboard Page */
+
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00d4ff;
+  }
+  
+  a:hover {
+    color: #00a1d6;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .nav-link {
+    color: #f0f0f0;
+  }
+  
+  .navbar .nav-link.active {
+    color: #00d4ff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #00d4ff;
+  }
+  
+  .navbar .btn-outline-light {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+  
+  .navbar .btn-outline-light:hover {
+    color: #121212;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+  
+  /* Dashboard Section */
+  .dashboard-section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  h2, h3 {
+    color: #f0f0f0;
+  }
+  
+  /* Input Group */
+  .input-group {
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .input-group .form-control {
+    background-color: #2a2a2a;
+    border: none;
+    color: #f0f0f0;
+  }
+  
+  .input-group .form-control::placeholder {
+    color: #cccccc;
+  }
+  
+  .input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #00d4ff;
+  }
+  
+  .input-group .btn-primary {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    border: none;
+  }
+  
+  .input-group .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #0096d6);
+  }
+  
+  /* Input Group Text */
+  .input-group-text {
+    background-color: #1e1e1e;
+    border: none;
+    color: #f0f0f0;
+  }
+  
+  /* Scan Result */
+  #scanResult {
+    margin-top: 20px;
+  }
+  
+  /* Table Styles */
+  .table-dark {
+    background-color: #1e1e1e;
+  }
+  
+  .table-dark th, .table-dark td {
+    border-color: #2a2a2a;
+  }
+  
+  .table-dark tbody tr:hover {
+    background-color: #2a2a2a;
+  }
+  
+  .table-dark th {
+    color: #f0f0f0;
+    font-weight: 600;
+  }
+  
+  .table-dark td {
+    color: #cccccc;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+  }
+  
+  .bg-success {
+    background-color: #28a745 !important;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545 !important;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767.98px) {
+    .dashboard-section {
+      padding-top: 80px;
+      padding-bottom: 60px;
+    }
+  }
+  

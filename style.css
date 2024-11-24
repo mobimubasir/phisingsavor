@@ -1,0 +1,173 @@
+/* Custom Styles */
+
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: #f0f0f0;
+  }
+  
+  a:hover {
+    color: #00d4ff;
+    text-decoration: none;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .nav-link {
+    color: #f0f0f0;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #00d4ff;
+  }
+  
+  .navbar .btn-outline-light {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+  
+  .navbar .btn-outline-light:hover {
+    color: #121212;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('3139256.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 18, 18, 0.8);
+  }
+  
+  .hero .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .hero .btn-primary {
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    border: none;
+  }
+  
+  .hero .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #00a1d6);
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #1e1e1e;
+  }
+  
+  .features h2 {
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #f0f0f0;
+  }
+  
+  .feature-icon i {
+    color: #00d4ff;
+  }
+  
+  .features h4 {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #f0f0f0;
+  }
+  
+  .features p {
+    color: #cccccc;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    background-color: #2a2a2a;
+  }
+  
+  .how-it-works h2 {
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #f0f0f0;
+  }
+  
+  .step-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  .step-number {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: #121212;
+    font-size: 32px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  .how-it-works h5 {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: #f0f0f0;
+  }
+  
+  .how-it-works p {
+    color: #cccccc;
+  }
+  
+  /* Footer */
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: #00d4ff;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767.98px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
